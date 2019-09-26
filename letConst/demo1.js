@@ -5,5 +5,9 @@ function a () {
     let a= ''
 }
 
+//var let const 之间的区别
+
+//function
+
 
 //
