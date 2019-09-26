@@ -25,11 +25,21 @@ github 修改fork的代码之后如何提交代码并pull request
 
 4.在本地修改代码文件并PUSH
 
-    在本地修改完文件测试完成之后，将代码提交到我们自己的fork出来的项目主页。
+    在本地修改完文件测试完成之后，将代码提交到我们自己的fork出来的项目主页。(一般先要把文件添加到)
     git commit -a -m ’更新原因'  
     git push 'fork出来的地址‘  
 
     通过这两个命令就可以将我们的修改发送到我们的fork主页上去，但是，这个时候项目的开发者还不知道我们的修改，通过下面的步骤可以通知开发者
+
+    注意
+    error：On branch master
+    Your branch is up to date with 'origin/master'.
+
+    报这个错的时候先要 git add .
+    才能git commit 和 git push
+
+    https://www.jianshu.com/p/1657e92f5289
+
 
 5.发送pull request给主开发者
 
